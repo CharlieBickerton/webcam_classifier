@@ -30,7 +30,7 @@ async function app() {
   console.log('Sucessfully loaded model');
 
   await setupWebcam();
-  / Reads an image from the webcam and associates it with a specific class
+  // Reads an image from the webcam and associates it with a specific class
   // index.
   const addExample = classId => {
     // Get the intermediate activation of MobileNet 'conv_preds' and pass that
